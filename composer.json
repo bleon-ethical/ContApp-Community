@@ -1,19 +1,19 @@
 {
-    "name": "libredte/libredte-community",
-    "description": "LibreDTE: Aplicación Web - Edición Comunidad.",
+    "name": "contapp/contapp-community",
+    "description": "ContApp: Aplicación Web - Edición Comunidad.",
     "type": "project",
-    "keywords": ["libredte", "dte", "facturacion", "chile"],
+    "keywords": ["contapp", "dte", "facturacion", "chile"],
     "homepage": "https://www.libredte.cl",
     "license": "AGPL-3.0+",
     "authors": [
         {
-            "name": "LibreDTE",
+            "name": "AndesCloud",
             "homepage": "https://www.libredte.cl"
         }
     ],
     "support": {
-        "issues": "https://github.com/libredte/libredte-app-community/issues",
-        "source": "https://github.com/libredte/libredte-app-community"
+        "issues": "https://github.com/bleon-ethical/ContaApp-Community/issues",
+        "source": "https://github.com/bleon-ethical/ContaApp-Community"
     },
     "autoload": {
         "classmap": ["src/"]
