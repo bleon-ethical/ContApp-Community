@@ -32,7 +32,7 @@ return [
     | necesita mostrar el nombre en alguna vista o correo electrónico.
     |
     */
-    'name' => env('APP_NAME', 'LibreDTE'),
+    'name' => env('APP_NAME', 'NorthDTE'),
 
     /*
     |--------------------------------------------------------------------------
@@ -129,7 +129,7 @@ return [
         'layout' => env('APP_UI_LAYOUT', 'LibreDTE'),
         // Temas de la página (diseño) disponibles.
         'layouts' => [
-            'LibreDTE' => 'LibreDTE Edición Comunidad',
+            'LibreDTE' => 'NorthDTE Edición Comunidad',
         ],
         // Registros por página.
         'pagination' => [

@@ -120,7 +120,7 @@ echo $f->end('Generar XML libro de ventas');
 
 <!-- INICIO COMPRAS -->
 <div role="tabpanel" class="tab-pane" id="compras" aria-labelledby="compras-tab">
-    <p>Para generar el libro de compras deberás crear un archivo en formato CSV (separado por punto y coma, codificado en UTF-8) con los datos de los casos de compras entregados por el SII. Luego deberás cargar dicho archivo CSV en el generador de XML de libros de compras y ventas de LibreDTE.</p>
+    <p>Para generar el libro de compras deberás crear un archivo en formato CSV (separado por punto y coma, codificado en UTF-8) con los datos de los casos de compras entregados por el SII. Luego deberás cargar dicho archivo CSV en el generador de XML de libros de compras y ventas de NorthDTE.</p>
     <a class="btn btn-primary btn-lg col-12" href="<?=$_base?>/utilidades/iecv/xml" role="button">
         Generar XML libro de compras
     </a>
@@ -129,7 +129,7 @@ echo $f->end('Generar XML libro de ventas');
 
 <!-- INICIO GUÍAS -->
 <div role="tabpanel" class="tab-pane" id="guias" aria-labelledby="guias-tab">
-    <p>Para generar el libro de guías de despacho deberás crear un archivo en formato CSV (separado por punto y coma, codificado en UTF-8) con los datos de los casos de guías entregados por el SII. Luego deberás cargar dicho archivo CSV en el generador de XML de libros de guías de despacho de LibreDTE.</p>
+    <p>Para generar el libro de guías de despacho deberás crear un archivo en formato CSV (separado por punto y coma, codificado en UTF-8) con los datos de los casos de guías entregados por el SII. Luego deberás cargar dicho archivo CSV en el generador de XML de libros de guías de despacho de NorthDTE.</p>
     <a class="btn btn-primary btn-lg col-12" href="<?=$_base?>/utilidades/guias/libro" role="button">
         Generar XML libro de guías de despacho
     </a>
@@ -140,7 +140,7 @@ echo $f->end('Generar XML libro de ventas');
 <div role="tabpanel" class="tab-pane" id="boletas" aria-labelledby="boletas-tab">
     <div class="alert alert-warning" role="alert">
         <i class="fa-solid fa-exclamation-triangle fa-fw text-warning"></i>
-        Esta funcionalidad debe considerarse obsoleta, se puede seguir usando, pero no se garantiza su funcionamiento ni recibirá actualizaciones. Si el SII cambia algo respecto a este proceso podría dejar de funcionar. El método de certificación de boletas electrónicas actualizado no está disponible en estas utilidades de LibreDTE, pero pero puedes <a href="https://www.libredte.cl/certificacion-dte#boletas" class="alert-link" target="_blank">comprar el servicio aquí</a>.
+        Esta funcionalidad debe considerarse obsoleta, se puede seguir usando, pero no se garantiza su funcionamiento ni recibirá actualizaciones. Si el SII cambia algo respecto a este proceso podría dejar de funcionar. El método de certificación de boletas electrónicas actualizado no está disponible en estas utilidades de NorthDTE, pero pero puedes <a href="https://www.libredte.cl/certificacion-dte#boletas" class="alert-link" target="_blank">comprar el servicio aquí</a>.
     </div>
 <?php
 $f = new \sowerphp\general\View_Helper_Form();

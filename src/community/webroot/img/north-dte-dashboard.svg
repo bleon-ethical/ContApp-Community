@@ -1,0 +1,15 @@
+<svg width="900" height="540" viewBox="0 0 900 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Panel de control NorthDTE</title>
+  <desc id="desc">Ilustración del panel de control de NorthDTE con tarjetas y gráficos.</desc>
+  <rect width="900" height="540" rx="32" fill="#F7F6FB"/>
+  <rect x="60" y="60" width="780" height="420" rx="24" fill="#FFFFFF" stroke="#DDE2F7" stroke-width="2"/>
+  <rect x="100" y="110" width="250" height="120" rx="18" fill="#5D7BFF"/>
+  <rect x="380" y="110" width="220" height="120" rx="18" fill="#E8E6F7"/>
+  <rect x="620" y="110" width="180" height="120" rx="18" fill="#F1F2FA"/>
+  <rect x="100" y="260" width="320" height="170" rx="18" fill="#F1F2FA"/>
+  <rect x="450" y="260" width="350" height="170" rx="18" fill="#E8E6F7"/>
+  <path d="M140 360 C170 330, 210 330, 240 360 C270 390, 310 390, 340 360" stroke="#5D7BFF" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M490 370 L530 320 L570 370 L610 300 L650 350 L690 320" stroke="#3149C6" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <circle cx="740" cy="170" r="30" fill="#D8343A"/>
+  <circle cx="170" cy="170" r="24" fill="#FFFFFF" opacity="0.7"/>
+</svg>
