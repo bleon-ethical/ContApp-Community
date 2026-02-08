@@ -29,7 +29,7 @@
                     <h1 class="display-4">¿Complicada la Certificación?</h1>
                     <p class="lead">Déjanos este tedioso proceso a nosotros. Somos expertos en hacerla.</p>
                     <hr class="my-4">
-                    <p>Si ya tienes un software de mercado para emitir documentos tributarios electrónicos, pero falta que tu empresa tenga la autorización del SII, con este servicio quedará habilitada y lista para utilizar LibreDTE u otro software de mercado.</p>
+                    <p>Si ya tienes un software de mercado para emitir documentos tributarios electrónicos, pero falta que tu empresa tenga la autorización del SII, con este servicio quedará habilitada y lista para utilizar NorthDTE u otro software de mercado.</p>
                     <p>
                         <a class="btn btn-primary col-12 btn-lg" href="https://www.libredte.cl/certificacion-dte" role="button" target="_blank">
                             Solicitar Servicio de Certificación de DTE

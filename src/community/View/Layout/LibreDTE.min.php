@@ -1,8 +1,8 @@
 <?php $Contribuyente = libredte()->getSessionContribuyente(false); ?>
 <!--
-LibreDTE: Edición Comunidad (2015 - 2024).
-Copyright (C) LibreDTE <https://www.libredte.cl>
-Edición Enterprise de LibreDTE, con soporte oficial, disponible en <https://www.libredte.cl>
+NorthDTE: Edición Comunidad (2015 - 2024).
+Copyright (C) NorthDTE <https://www.libredte.cl>
+Edición Enterprise de NorthDTE, con soporte oficial, disponible en <https://www.libredte.cl>
 ¿Te gusta ver código? ¿Necesitas una integración? Revisa <https://www.billmysales.com>
 -->
 <!DOCTYPE html>
@@ -10,8 +10,8 @@ Edición Enterprise de LibreDTE, con soporte oficial, disponible en <https://www
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
-        <meta name="author" content="LibreDTE" />
-        <meta name="description" content="LibreDTE Edición Comunidad." />
+        <meta name="author" content="NorthDTE" />
+        <meta name="description" content="NorthDTE Edición Comunidad." />
         <meta name="keywords" content="facturas, boletas, sii, dte" />
         <title><?=$__view_title?></title>
         <link rel="shortcut icon" href="<?=$_base?>/img/favicon.png" />

@@ -1,7 +1,7 @@
 <!--
-LibreDTE: Edición Comunidad (2015 - 2024).
-Copyright (C) LibreDTE <https://www.libredte.cl>
-Edición Enterprise de LibreDTE, con soporte oficial, disponible en <https://www.libredte.cl>
+NorthDTE: Edición Comunidad (2015 - 2024).
+Copyright (C) NorthDTE <https://www.libredte.cl>
+Edición Enterprise de NorthDTE, con soporte oficial, disponible en <https://www.libredte.cl>
 ¿Te gusta ver código? ¿Necesitas una integración? Revisa <https://www.billmysales.com>
 -->
 <!DOCTYPE html>
@@ -9,8 +9,8 @@ Edición Enterprise de LibreDTE, con soporte oficial, disponible en <https://www
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
-        <meta name="author" content="LibreDTE" />
-        <meta name="description" content="LibreDTE Edición Comunidad." />
+        <meta name="author" content="NorthDTE" />
+        <meta name="description" content="NorthDTE Edición Comunidad." />
         <meta name="keywords" content="facturas, boletas, sii, dte" />
         <script>
             var _url = "{{ _url }}",
@@ -79,7 +79,10 @@ Edición Enterprise de LibreDTE, con soporte oficial, disponible en <https://www
     <body>
         <nav class="navbar navbar-expand-lg bg-light mb-4">
         <div class="container">
-            <a class="navbar-brand" href="{{ _base }}/">{{ __view_app_name }}</a>
+            <a class="navbar-brand d-flex align-items-center" href="{{ _base }}/">
+                <img src="{{ _base }}/img/north-dte-logo.svg" alt="NorthDTE" class="brand-logo" />
+                <span>{{ __view_app_name }}</span>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -245,10 +248,10 @@ Edición Enterprise de LibreDTE, con soporte oficial, disponible en <https://www
         <footer class="footer d-print-none">
             <div class="container">
                 <div class="float-start">
-                    &copy; {{ "now"|date("Y") }} LibreDTE -
+                    &copy; {{ "now"|date("Y") }} NorthDTE -
                     <a href="{{ _url }}/consultar" title="Consultar documentos (incluyendo boletas)">Consultar DTE</a><br/>
                     <span class="small">
-                        Aplicación de facturación basada en <a href="https://www.libredte.cl">LibreDTE</a>
+                        Aplicación de facturación basada en <a href="https://www.libredte.cl">NorthDTE</a>
                         que tiene como misión proveer facturación electrónica libre para Chile.
                     </span>
                 </div>

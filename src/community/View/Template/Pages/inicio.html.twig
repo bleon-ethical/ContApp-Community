@@ -1,22 +1,33 @@
 {% extends "View/Layout/" ~ __view_layout ~ ".html.twig" %}
 
-{% block title %}Facturas y Boletas Electrónicas con LibreDTE Edición Comunidad{% endblock %}
+{% block title %}Facturas y Boletas Electrónicas con NorthDTE Edición Comunidad{% endblock %}
 
 {% block content %}
 
     <div class="row mb-4">
         <div class="col-sm-12">
-            <div class="bg-primary text-white rounded p-4 text-center">
-                <h2 class="display-4">LibreDTE Edición Comunidad</h2>
-                <p class="lead">
-                    <a href="https://www.libredte.cl" class="text-white">LibreDTE</a><sup>&reg;</sup> es un proyecto que tiene por objetivo proveer facturación electrónica libre para Chile.
-                </p>
+            <div class="north-hero text-white rounded p-4 p-lg-5">
+                <div class="row align-items-center north-hero__content">
+                    <div class="col-lg-7 text-center text-lg-start">
+                        <span class="north-hero__badge mb-3">Innovación para Chile</span>
+                        <h2 class="display-4">NorthDTE Edición Comunidad</h2>
+                        <p class="lead">
+                            <a href="https://www.libredte.cl" class="text-white" target="_blank" rel="noopener noreferrer">NorthDTE</a><sup>&reg;</sup> es un proyecto que tiene por objetivo proveer facturación electrónica libre para Chile.
+                        </p>
+                        <p class="mb-0">
+                            Integramos la identidad de <strong>NorthDTE</strong> con una experiencia alineada a los colores del logo y la inspiración chilena.
+                        </p>
+                    </div>
+                    <div class="col-lg-5 text-center mt-4 mt-lg-0">
+                        <img src="{{ _base }}/img/north-dte-logo.svg" alt="Logo NorthDTE" class="north-hero__logo" />
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="mb-4 text-center">
-        <img src="https://libredte.cl/img/layouts/LibreDTE.png" alt="Dashboard de LibreDTE" class="img-fluid img-thumbnail" style="max-height:300px" />
+        <img src="{{ _base }}/img/north-dte-dashboard.svg" alt="Dashboard de NorthDTE" class="img-fluid img-thumbnail" style="max-height:300px" />
     </div>
 
     <div class="row row-cols-3 g-3">
@@ -29,7 +40,7 @@
                     <h2 class="text-center mb-4">Términos y Condiciones</h2>
                     <hr/>
                     <p class="text-center text-dark lead">
-                        Revisa los <a href="https://www.libredte.cl/legal" target="_blank">términos y condiciones</a> de uso que te permiten usar la Edición Comunidad de LibreDTE.
+                        Revisa los <a href="https://www.libredte.cl/legal" target="_blank" rel="noopener noreferrer">términos y condiciones</a> de uso que te permiten usar la Edición Comunidad de NorthDTE.
                     </p>
                     <p class="text-center text-muted">
                         <em>Think free as in free speech, not free beer.</em>
@@ -46,7 +57,7 @@
                     <h2 class="text-center mb-4">Funcionalidades Extras</h2>
                     <hr/>
                     <p class="text-center text-dark lead">
-                        Desbloquea las <a href="https://www.libredte.cl//editions#edicion-comunidad-funcionalidades-extras" target="_blank">funcionalidades extras</a> de LibreDTE Edición Comunidad.
+                        Desbloquea las <a href="https://www.libredte.cl//editions#edicion-comunidad-funcionalidades-extras" target="_blank" rel="noopener noreferrer">funcionalidades extras</a> de NorthDTE Edición Comunidad.
                     </p>
                     <p class="text-center text-muted">
                         Simplifica procesos, ahorra tiempo y obtén características.
@@ -63,7 +74,7 @@
                     <h2 class="text-center mb-4">Centro de Ayuda</h2>
                     <hr/>
                     <p class="text-center text-dark lead">
-                        Revisa los <a href="https://www.libredte.cl/local" target="_blank">tipos de asistencia</a> que tenemos disponibles.
+                        Revisa los <a href="https://www.libredte.cl/local" target="_blank" rel="noopener noreferrer">tipos de asistencia</a> que tenemos disponibles.
                     </p>
                     <p class="text-center text-muted">
                         Personalización, soporte, entrenamiento e integración.
@@ -73,36 +84,141 @@
         </div>
     </div>
 
+    <section class="north-chile-section mb-4">
+        <div class="text-center mb-4">
+            <h2 class="mb-2">Ilustraciones inspiradas en Chile</h2>
+            <p class="text-muted mb-0">Un guiño visual a la geografía y cultura local que acompaña la experiencia NorthDTE.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 g-4">
+            <div class="col">
+                <div class="card north-chile-card h-100 text-center p-3">
+                    <svg class="north-illustration" viewBox="0 0 180 140" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <rect x="0" y="100" width="180" height="40" class="accent-gray"/>
+                        <polygon points="10,110 60,40 110,110" class="accent-blue"/>
+                        <polygon points="70,110 120,30 170,110" class="accent-blue"/>
+                        <polygon points="55,60 60,50 65,60" fill="#ffffff"/>
+                        <polygon points="115,50 120,40 125,50" fill="#ffffff"/>
+                    </svg>
+                    <h3 class="card-title">Cordillera de los Andes</h3>
+                    <p class="text-muted mb-0">Cumbres que inspiran estabilidad y confianza en cada emisión tributaria.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card north-chile-card h-100 text-center p-3">
+                    <svg class="north-illustration" viewBox="0 0 180 140" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <rect x="0" y="90" width="180" height="50" class="accent-gray"/>
+                        <circle cx="130" cy="40" r="20" class="accent-red"/>
+                        <path d="M10 90 C40 70, 70 70, 100 90" class="accent-blue" fill="none" stroke-width="8" stroke-linecap="round"/>
+                        <path d="M80 90 C110 60, 140 60, 170 90" class="accent-blue" fill="none" stroke-width="8" stroke-linecap="round"/>
+                    </svg>
+                    <h3 class="card-title">Desierto de Atacama</h3>
+                    <p class="text-muted mb-0">Claridad y transparencia para mantener tus procesos siempre visibles.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card north-chile-card h-100 text-center p-3">
+                    <svg class="north-illustration" viewBox="0 0 180 140" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <rect x="0" y="90" width="180" height="50" class="accent-gray"/>
+                        <path d="M0 90 C30 70, 60 70, 90 90 C120 110, 150 110, 180 90" class="accent-blue" fill="none" stroke-width="8" stroke-linecap="round"/>
+                        <path d="M30 110 L60 70 L90 110 Z" class="accent-blue"/>
+                        <path d="M90 110 L120 60 L150 110 Z" class="accent-blue"/>
+                        <circle cx="40" cy="40" r="12" class="accent-red"/>
+                    </svg>
+                    <h3 class="card-title">Patagonia Austral</h3>
+                    <p class="text-muted mb-0">Respaldo sólido para acompañar tu negocio de norte a sur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <div class="alert alert-info text-center mb-4">
-        El soporte de esta aplicación web <strong>no</strong> es entregado de manera oficial por LibreDTE.
+        El soporte de esta aplicación web <strong>no</strong> es entregado de manera oficial por NorthDTE.
     </div>
+
+    <section class="north-feature-grid mb-4">
+        <div class="text-center mb-4">
+            <h2 class="mb-2">Una interfaz creada para tu equipo</h2>
+            <p class="text-muted mb-0">Accesos rápidos, métricas claras y un flujo de emisión más simple.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card north-feature-card h-100 text-center p-3">
+                    <div class="north-feature-card__icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="card-title">Panel Ejecutivo</h3>
+                    <p class="text-muted mb-0">Resumen de ventas, documentos pendientes y alertas clave.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card north-feature-card h-100 text-center p-3">
+                    <div class="north-feature-card__icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="card-title">Seguridad Reforzada</h3>
+                    <p class="text-muted mb-0">Protección de accesos y enlaces externos con mejores prácticas.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card north-feature-card h-100 text-center p-3">
+                    <div class="north-feature-card__icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="card-title">Procesos Ágiles</h3>
+                    <p class="text-muted mb-0">Atajos y acciones rápidas para emitir en segundos.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card north-feature-card h-100 text-center p-3">
+                    <div class="north-feature-card__icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="card-title">Colaboración</h3>
+                    <p class="text-muted mb-0">Roles claros para equipos contables y comerciales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="north-cta mb-4 text-center">
+        <h2 class="mb-3">Conecta NorthDTE con tu operación diaria</h2>
+        <p class="text-muted mb-4">Explora guías, integraciones y recursos pensados para empresas chilenas.</p>
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a class="btn btn-primary btn-lg north-cta__primary" href="https://sites.google.com/view/northdte/inicio" target="_blank" rel="noopener noreferrer">
+                Ver la web de NorthDTE
+            </a>
+            <a class="btn btn-outline-primary btn-lg north-cta__secondary" href="https://www.libredte.cl/blog" target="_blank" rel="noopener noreferrer">
+                Recursos y novedades
+            </a>
+        </div>
+    </section>
 
     <div class="row row-cols-3 g-3 lead text-center text-primary">
         <div class="col">
             <div class="card mb-4">
                 <div class="card-body">
-                    <i class="far fa-comments fa-fw"></i> <a href="https://www.libredte.cl/blog" target="_blank">Blog</a>
+                    <i class="far fa-comments fa-fw"></i> <a href="https://www.libredte.cl/blog" target="_blank" rel="noopener noreferrer">Blog</a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card mb-4">
                 <div class="card-body">
-                    <i class="fab fa-instagram fa-fw"></i> <a href="https://instagram.com/libredte" target="_blank">Instagram</a>
+                    <i class="fab fa-instagram fa-fw"></i> <a href="https://instagram.com/libredte" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card mb-4">
                 <div class="card-body">
-                    <i class="fab fa-github fa-fw"></i> <a href="https://github.com/LibreDTE" target="_blank">GitHub</a>
+                    <i class="fab fa-github fa-fw"></i> <a href="https://github.com/NorthDTE" target="_blank" rel="noopener noreferrer">GitHub</a>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="text-center mt-4 mb-4">
-        <a href="https://www.billmysales.com" target="_blank">
+        <a href="https://www.billmysales.com" target="_blank" rel="noopener noreferrer">
             <img src="https://billmysales.com/static/img/banners/billmysales_banner_750x110.png" alt="Banner BillMySales">
         </a>
     </div>

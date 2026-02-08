@@ -1,8 +1,8 @@
 <?php
 
 /**
- * LibreDTE: Aplicación Web - Edición Comunidad.
- * Copyright (C) LibreDTE <https://www.libredte.cl>
+ * NorthDTE: Aplicación Web - Edición Comunidad.
+ * Copyright (C) NorthDTE <https://www.libredte.cl>
  *
  * Este programa es software libre: usted puede redistribuirlo y/o
  * modificarlo bajo los términos de la Licencia Pública General Affero
@@ -24,7 +24,7 @@
 namespace website;
 
 /**
- * Helper para la generación de PDFs personalizados para LibreDTE.
+ * Helper para la generación de PDFs personalizados para NorthDTE.
  */
 class View_Helper_PDF extends \sowerphp\general\View_Helper_PDF
 {
@@ -70,7 +70,7 @@ class View_Helper_PDF extends \sowerphp\general\View_Helper_PDF
         $this->SetY($this->GetY());
         $this->SetFont('helvetica', 'B', 6);
         $link = 'http'.(isset($_SERVER['HTTPS'])?'s':null).'://'.$_SERVER['HTTP_HOST'];
-        $this->Texto('Documento generado el '. date('d/m/Y').' a las '.date('H:i').' usando LibreDTE ('.$link.')');
+        $this->Texto('Documento generado el '. date('d/m/Y').' a las '.date('H:i').' usando NorthDTE ('.$link.')');
     }
 
 }
